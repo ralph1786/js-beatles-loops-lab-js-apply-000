@@ -17,6 +17,7 @@ const johnFacts = [
 "He was a choir boy and boy scout",
 "He hated the sound of his own voice"];
 
+<<<<<<< HEAD
 // function johnLennonFacts(johnFacts){
 //   var newArray = [];
 //   let i = 0;
@@ -34,10 +35,21 @@ function johnLennonFacts(array) {
     i++;
   }
   return array;
+=======
+function johnLennonFacts(johnFacts){
+  var newArray = [];
+  let i = 0;
+  while(i < 3) {
+    i++;
+    newArray.push(johnFacts[i] + "!!!")
+  } 
+  return newArray;
+>>>>>>> 816999f9a92882f385026db24c9731e962869f46
 }
 
 const message = "I love the Beatles!"
 
+<<<<<<< HEAD
 // function iLoveTheBeatles(number) {
 //   var newArr = [];
 //   let i = 0;
@@ -61,3 +73,16 @@ function iLoveTheBeatles(number) {
 
 
 
+=======
+function iLoveTheBeatles(number) {
+  var newArr = [];
+  let i = 0;
+  do {
+    i++;
+    newArr.push(message)
+    return newArr;
+  }while(i < 15)
+}
+
+
+>>>>>>> 816999f9a92882f385026db24c9731e962869f46
